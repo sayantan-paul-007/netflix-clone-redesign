@@ -1,0 +1,160 @@
+/* This is for tablet screen */
+@media screen and (max-width: 1024px){
+    .hero-bg,.hero{
+        height: 70vh;
+    }
+    .hero-content{
+        top:50%;
+        width: 70%;
+    }
+    .box{
+        flex-wrap: wrap;
+        padding: 50px;
+        gap: 65px;
+    }
+    #reverse{
+        flex-wrap: wrap-reverse;
+        gap: 70px;
+    }
+    .box-title,.box-body{
+        text-align: center;
+    }
+    /* .box-image{
+        height: 450px;
+    }
+    .box-vid{
+        width:  441px;
+    }
+    .box-image,.box-vid{
+        padding-top: 0 !important;
+    }
+    #video{
+        width: 390px !important;
+        margin-top: -230px !important;
+    } */
+    .download-flex{
+        margin-top: 250px;
+    }
+    .text-col-flex{
+        width: 250px;
+    }
+    .faq,.footer{
+        padding: 80px 64px;
+    }
+    .faq-menu,.faq-sub-menu{
+        width: 100%;
+    }
+    .footer-menu{
+        height: 250px;
+    }
+    .email-2{
+        width: 80%;
+    }
+    .email-2 .hero-sub-2{
+        font-size: 22px;
+    }
+    .faq-sub-menu{
+        font-size: 20px;
+    }
+    .footer{
+        padding-bottom: 25px;
+    }
+}
+/* This is for mobile screens */
+@media screen and (max-width: 650px){
+.navbar{
+    padding: 30px 16px;
+    justify-content: center;
+}
+.logo{
+    height: 32px;
+}
+.faq{
+    padding: 80px 0;
+}
+.box-image{
+    height: 250px;
+}
+.box-vid{
+    width: 241px;
+}
+.hero-content{
+    width: 90%;
+}
+.hero-head{
+    font-size: 30px;
+}
+.hero-sub-1{
+    font-size: 22px;
+    padding: 10px 0;
+}
+.hero-sub-2{
+    font-size: 12px;
+}
+.input{
+    height: 48px;
+    font-size: 14px;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 50px;
+}
+.get-started{
+    padding: 1px 4px;
+}
+.arrow{
+    font-size: 20px;
+}
+.box{
+    padding: 40px 16px;
+}
+.box-title{
+    font-size: 28px;
+}
+.box-body{
+    font-size: 15px;
+}
+.download-flex{
+    margin-top: 80px;
+    height: 45px;
+}
+.text-col-flex{
+    width: 100px;
+}
+.download{
+    font-size: 8.5px;
+}
+#video{
+    width: 200px !important;
+    margin-top: -145px !important;
+}
+.email-2{
+   width: 95%;
+}
+.faq,.footer{
+    padding: 64px 24px;
+}
+.footer-menu{
+    height: 350px;
+}
+#faq-head{
+    font-size: 32px !important;
+}
+.faq-menu{
+    font-size: 20px;
+}
+.plus{
+    font-size: 26px !important;
+}
+.faq-sub-menu{
+    font-size: 16px;
+}
+.nav-right{
+ display: none;
+}
+}
+@media(orientation: landscape){
+    .hero-bg,.hero{
+        height: 100vh;
+    }
+
+}
